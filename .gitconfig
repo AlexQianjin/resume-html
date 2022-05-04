@@ -1,0 +1,4 @@
+# $HOME/.gitconfig
+[core]
+  autocrlf = false
+  eol = lf
