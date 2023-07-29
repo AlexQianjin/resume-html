@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite  --port 3000",
     "style:dev": "tailwindcss -i ./style.css -o ./dist/style.css --watch",
     "build": "vite build",
     "preview": "vite preview"
