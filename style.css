@@ -13,3 +13,36 @@
   width: 80%;
   margin: 0 auto;
 }
+
+.parent {
+  width: 100px;
+  height: 100px;
+  background-color: darkorange;
+}
+
+.child {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  animation: circle-around 3s infinite alternate;
+}
+
+/* .parent:hover .child {
+  
+} */
+
+@keyframes circle-around {
+  0% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateY(100%);
+  }
+  66% {
+    transform: translateX(100%) translateY(100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+  
+}
